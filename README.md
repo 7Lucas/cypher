@@ -9,7 +9,7 @@
 
 
 ## :camera: Capturas de Tela
-![Loading](./assets/readme/loading.png) ![Cypher](./assets/readme/cypher.png) ![Ultimate](./assets/readme/ultimate.png) ![About](./assets/readme/about.png)
+![Loading](./assets/readme/loading.png)  ![Cypher](./assets/readme/cypher.png) ![Ultimate](./assets/readme/ultimate.png)  ![About](./assets/readme/about.png)
 
 ## :signal_strength: Tecnologias
 
