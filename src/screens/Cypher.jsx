@@ -28,6 +28,9 @@ export default function Cypher() {
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('About')}>
               <Text style={styles.buttonText}>Sobre Mim</Text>
             </TouchableOpacity>
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Locais')}>
+              <Text style={styles.buttonText}>Consultas</Text>
+            </TouchableOpacity>
           </View>
         </View>
       );
@@ -48,7 +51,7 @@ export default function Cypher() {
       headerText: {
         fontSize: 20,
         color: '#fff',
-        marginBottom: 40,
+        marginBottom: 80,
       },
       button: {
         backgroundColor: '#1976d2',
