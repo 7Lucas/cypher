@@ -15,6 +15,8 @@ export default function Ultimate(){
     const [isChecked, setIsChecked] = useState(false);
     const toggleCheckbox = () => {
       setIsChecked(!isChecked);
+      setNovoLocal({ ...novoLocal, latitude: location.coords.latitude, longitude: location.coords.longitude});
+      
     };
 
     const [novoLocal, setNovoLocal] = useState({
@@ -122,7 +124,6 @@ export default function Ultimate(){
             <TouchableOpacity
                 style={[styles.checkbox, isChecked && styles.checkedCheckbox]}
                 onPress={toggleCheckbox}
-                onChangeText={(text) => setNovoLocal({ ...novoLocal, longitude: text })}
               >
                 {isChecked && <Text style={styles.checkmark}>✓</Text>}
             </TouchableOpacity>
