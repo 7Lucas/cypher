@@ -1,5 +1,5 @@
 # 🌐Cypher
-* 1° Trabalho da disciplina de Mobile do curso de ADS [Fatec Itu](https://fatecitu.edu.br/portal/cursos/analise-e-desenvolvimento-de-sistemas/)
+* 2° Trabalho da disciplina de Mobile do curso de ADS [Fatec Itu](https://fatecitu.edu.br/portal/cursos/analise-e-desenvolvimento-de-sistemas/)
 * App React-Native/Expo de **Localização inspirado no personagem Cypher do jogo [Valorant](https://playvalorant.com/pt-br/?gclid=CjwKCAjw3POhBhBQEiwAqTCuBsSOqclOr-jiEPABjzKKJLVEawMnVLksGHC7X_DpnEhuTvlFAQPjURoCpNEQAvD_BwE&gclsrc=aw.ds)**
 
 ## :books: Informações Gerais
@@ -9,7 +9,8 @@
 
 
 ## :camera: Capturas de Tela
-![Loading](./assets/readme/loading.png)  ![Cypher](./assets/readme/cypher.png) ![Ultimate](./assets/readme/ultimate.png)  ![About](./assets/readme/about.png)
+![Loading](./assets/readme/loading.png) ![Login](./assets/readme/login.png) ![Signup](./assets/readme/signup.png)
+![Cypher](./assets/readme/cypher.png) ![Ultimate](./assets/readme/ultimate.png)  ![About](./assets/readme/about.png)  ![Edit](./assets/readme/editLocal.png)
 
 ## :signal_strength: Tecnologias
 
@@ -26,3 +27,7 @@
 
 ## :point_right: Integrantes
 * [Lucas Henrique Pereira Alves e Silva](https://github.com/7Lucas)
+
+## 🎉 Atualizações
+*  Cadastro e validação de usuários bem como a realização completa do CRUD de Localizações.
+*  Integração com o Banco de Dados [Firebase da Google](https://firebase.google.com/?hl=pt)

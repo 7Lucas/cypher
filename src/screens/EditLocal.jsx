@@ -74,12 +74,10 @@ export default function EditLocal({ route }) {
                 onChangeText={(text) => setEditarLocal(
                     { ...editarLocal, cep: text })}
             />
-              
-         
+
             <Pressable onPress={validaLocal} style={styles.botao}>
                 <Text styles={styles.textoBotao}>Alterar</Text>
             </Pressable>
-
         </View>
     )
 }
