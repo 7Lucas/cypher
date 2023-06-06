@@ -32,19 +32,16 @@ export default function Ultimate(){
     if(novoLocal.rua === ''){
         Alert.alert('⚠ Atenção',
         'O campo rua é obrigatório')
-        alert('O campo rua é obrigatório')
         return
     }
     if(novoLocal.cidade === ''){
       Alert.alert('⚠ Atenção',
       'O campo cidade é obrigatório')
-      alert('O campo cidade é obrigatório')
       return
     }
     if(novoLocal.cep === ''){
       Alert.alert('⚠ Atenção',
       'O campo cep é obrigatório')
-      alert('O cep rua é obrigatório')
       return
     }
     
